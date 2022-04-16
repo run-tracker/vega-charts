@@ -1,0 +1,15 @@
+.idea
+.mypy_cache
+__pycache__
+.ipynb_checkpoints
+.pyre
+.pyre
+readme.ipynb
+.DS_Store
+.venv
+ignore.py
+dist
+.hypothesis
+build
+docs/build
+docs/build

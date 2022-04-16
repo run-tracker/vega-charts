@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "vega-charts"
+version = "0.1.0"
+description = ""
+authors = ["Ethan Brooks <ethanabrooks@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+ipython = "^8.2.0"
+ipdb = "^0.13.9"
+pre-commit = "^2.18.1"
+Sphinx = "^4.5.0"
+sphinx-book-theme = "^0.3.2"
+sphinxext-opengraph = "^0.6.3"
+sphinx-autobuild = "^2021.3.14"
+sphinx-copybutton = "^0.5.0"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
