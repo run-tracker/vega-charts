@@ -3,9 +3,6 @@ name = "vega-charts"
 version = "0.1.0"
 description = ""
 authors = ["Ethan Brooks <ethanabrooks@gmail.com>"]
-packages = [
-    { include = "charts" },
-]
 
 [tool.poetry.dependencies]
 python = "^3.9"
