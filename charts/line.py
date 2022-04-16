@@ -1,4 +1,13 @@
-def spec(x, y, visualizer_url=None, color="run ID", scale_type="linear"):
+from typing import Optional
+
+
+def spec(
+    x: str,
+    y: str,
+    visualizer_url: Optional[str] = None,
+    color: str = "run ID",
+    scale_type: str = "linear",
+) -> dict:
     def subfigure(parameters, x_kwargs=None, y_kwargs=None):
         if y_kwargs is None:
             y_kwargs = {}

@@ -1,4 +1,4 @@
-def spec(x, y, color):
+def spec(x: str, y: str, color: str) -> dict:
     tooltip = {"signal": "{" + f"'{y}': datum['{y}'], '{x}': datum['{x}']" + "}"}
     return {
         "$schema": "https://vega.github.io/schema/vega/v5.json",

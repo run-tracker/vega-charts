@@ -1,4 +1,4 @@
-def spec(x, y):
+def spec(x: str, y: str) -> dict:
     return {
         "$schema": "https://vega.github.io/schema/vega/v5.json",
         "description": "A basic grouped bar chart example.",
